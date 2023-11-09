@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.header1{
+  display: flex;
+  justify-content: center;
+  background-color: #d4f1d3;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+.Header2{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.AccountNumber{
+  border-radius: 5px;
+  border: 1px solid #eee;
+  font-weight: bold;
+}
+
+.GetTokens,.EnterGame{
+  background-color: #d4f1d3;
+  border: 1px solid #355834;
+  border-radius: 15px;
+  padding: 5px 10px;
+  height: 40px;
+  width: 150px;
+}
+
+.GetTokens:hover,.EnterGame:hover{
+  background-color: #27d121;
+  border: 1px solid #355834;
+  box-shadow: 1px 1px 1px black;
+  cursor: pointer;
+
+}
+
+.Header3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PlayedGames{
+  display: grid;
+  grid-template-columns: 90vw;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.PlayedGameCard{
+  display: flex;
+  width: 92vw;
+  height: 5vh;
+  border: 1px solid black;
+  margin: 5px 4vw;
+  padding: 0 5px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px black;
+  justify-content: space-between;
+  /* align-content: center; */
+  align-items: center;
+}
+
+.Checked, .notChecked{
+  width: 150px;
+}
+
+.Checked{
+  background-color: #27d121;
+  border: 1px solid #d4f1d3;
+  border-radius: 15px;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 1px #d4f1d3;
+}
+
+.notChecked{
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.notChecked:hover{
+  background-color: #d4f1d3;
+  border: 1px solid #d4f1d3;
+  border-radius: 15px;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 1px black;
+  cursor: pointer;
+}
